@@ -2,7 +2,7 @@
 import Image from "next/image";
 import logo from "./logo2.png";
 import dynamic from 'next/dynamic';
-import Footer from '../components/Footer'; // Importa el componente Footer
+import Footer from '../components/Footer';
 
 const Navbar = dynamic(() => import('../components/Navbar'), { ssr: false });
 const Carousel = dynamic(() => import('../components/Carousel'), { ssr: false });

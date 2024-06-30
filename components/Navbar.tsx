@@ -10,7 +10,6 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { href: '/about', label: 'Nosotros' },
-    { href: '/donate', label: 'Donar' },
     { href: '/contact', label: 'Contacto' },
     { href: '/blog', label: 'Blog' },
   ];

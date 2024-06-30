@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "fuerzafe",
-  description: "new app for fuerzfe",
+  title: "Somos Fuerza Fe",
+  description: "La lucha contra la anemia comienza contigo",
 };
 
 export default function RootLayout({

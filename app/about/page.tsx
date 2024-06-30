@@ -5,7 +5,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Footer from '../../components/Footer';
 import Image from 'next/image';
-import aboutImage from '../../public/images/about.jpeg';
+import aboutImage from '../../public/images/image.png';
 
 const Navbar = dynamic(() => import('../../components/Navbar'), { ssr: false });
 

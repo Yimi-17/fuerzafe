@@ -16,12 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-         <meta charSet="utf-8" />
-          <link rel="icon" href="/logo2.png" /> {/* Ruta al favicon */}
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          {/* Otros metadatos y enlaces a hojas de estilo */}
-      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
